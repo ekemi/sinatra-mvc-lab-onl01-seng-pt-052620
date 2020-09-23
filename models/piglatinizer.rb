@@ -10,9 +10,9 @@ class PigLatinizer
     end
   end
 
-  def  (text)
-    word = text.split(' ')
-    word.map{|word| translate_word(word)}.join(' ')
-  end
-end
+#   def  (text)
+#     word = text.split(' ')
+#     word.map{|word| translate_word(word)}.join(' ')
+#   end
+# end
 end
