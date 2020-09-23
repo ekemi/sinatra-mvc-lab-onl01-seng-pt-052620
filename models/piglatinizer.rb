@@ -1,6 +1,5 @@
 class PigLatinizer
 
-
   def pigLatinize(text)
 
     if /^[aeiou]/i.match(text)
