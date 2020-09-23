@@ -1,6 +1,6 @@
 class PigLatinizer
 
-  def pigLatinize(text)
+  def piglatinize(text)
 
     if /^[aeiou]/i.match(text)
       puts "#{text}way"
