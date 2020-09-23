@@ -10,7 +10,7 @@ class PigLatinizer
     end
   end
 
-  def  (text)
+  def  pi(text)
     word = text.split(' ')
     word.map{|word| translate_word(word)}.join(' ')
   end
