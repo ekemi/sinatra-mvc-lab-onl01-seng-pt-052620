@@ -15,3 +15,4 @@ class PigLatinizer
     word.map{|word| translate_word(word)}.join(' ')
   end
 end
+end
