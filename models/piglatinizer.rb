@@ -1,7 +1,7 @@
 class PigLatinizer
 
 
-  def translate_word(text)
+  def pigLatinize(text)
 
     if /^[aeiou]/i.match(text)
       puts "#{text}way"
@@ -11,7 +11,7 @@ class PigLatinizer
     end
   end
 
-  def pi (text)
+  def  (text)
     word = text.split(' ')
     word.map{|word| translate_word(word)}.join(' ')
   end
