@@ -13,5 +13,5 @@ class App < Sinatra::Base
     @user = PigLatinizer.params[:text]
   end
 
-  
+
 end
